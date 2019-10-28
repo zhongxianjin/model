@@ -1,0 +1,400 @@
+Classfile /D:/Desktop/work/demo/target/classes/com/zxj/demo/bs/WYHY.class
+  Last modified 2019-9-27; size 1875 bytes
+  MD5 checksum aff6e4f050006371a4e701f2bee6558a
+  Compiled from "WYHY.java"
+public class com.zxj.demo.bs.WYHY
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Methodref          #28.#62       // java/lang/Object."<init>":()V
+    #2 = Class              #63           // java/util/Scanner
+    #3 = Fieldref           #64.#65       // java/lang/System.in:Ljava/io/InputStream;
+    #4 = Methodref          #2.#66        // java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+    #5 = Methodref          #2.#67        // java/util/Scanner.nextLine:()Ljava/lang/String;
+    #6 = Methodref          #68.#69       // java/lang/Integer.valueOf:(Ljava/lang/String;)Ljava/lang/Integer;
+    #7 = Methodref          #68.#70       // java/lang/Integer.intValue:()I
+    #8 = Methodref          #27.#71       // com/zxj/demo/bs/WYHY.cacul:(Ljava/lang/String;)V
+    #9 = String             #72           // A
+   #10 = String             #73           // 0
+   #11 = Methodref          #74.#75       // java/lang/String.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #12 = String             #76           // S
+   #13 = String             #77           // 1
+   #14 = String             #78           // D
+   #15 = String             #79           // 2
+   #16 = String             #80           // F
+   #17 = String             #81           // 3
+   #18 = String             #82           // G
+   #19 = String             #83           // 4
+   #20 = String             #84           // H
+   #21 = String             #85           // 5
+   #22 = Methodref          #74.#86       // java/lang/String.toCharArray:()[C
+   #23 = Fieldref           #64.#87       // java/lang/System.out:Ljava/io/PrintStream;
+   #24 = Methodref          #88.#89       // java/lang/Math.abs:(I)I
+   #25 = Methodref          #88.#90       // java/lang/Math.min:(II)I
+   #26 = Methodref          #91.#92       // java/io/PrintStream.println:(I)V
+   #27 = Class              #93           // com/zxj/demo/bs/WYHY
+   #28 = Class              #94           // java/lang/Object
+   #29 = Utf8               <init>
+   #30 = Utf8               ()V
+   #31 = Utf8               Code
+   #32 = Utf8               LineNumberTable
+   #33 = Utf8               LocalVariableTable
+   #34 = Utf8               this
+   #35 = Utf8               Lcom/zxj/demo/bs/WYHY;
+   #36 = Utf8               main
+   #37 = Utf8               ([Ljava/lang/String;)V
+   #38 = Utf8               t
+   #39 = Utf8               Ljava/lang/String;
+   #40 = Utf8               i
+   #41 = Utf8               I
+   #42 = Utf8               args
+   #43 = Utf8               [Ljava/lang/String;
+   #44 = Utf8               scan
+   #45 = Utf8               Ljava/util/Scanner;
+   #46 = Utf8               T
+   #47 = Utf8               StackMapTable
+   #48 = Class              #63           // java/util/Scanner
+   #49 = Utf8               cacul
+   #50 = Utf8               (Ljava/lang/String;)V
+   #51 = Utf8               temp1
+   #52 = Utf8               temp21
+   #53 = Utf8               temp22
+   #54 = Utf8               temp2
+   #55 = Utf8               sum
+   #56 = Utf8               index
+   #57 = Utf8               array
+   #58 = Utf8               [C
+   #59 = Class              #58           // "[C"
+   #60 = Utf8               SourceFile
+   #61 = Utf8               WYHY.java
+   #62 = NameAndType        #29:#30       // "<init>":()V
+   #63 = Utf8               java/util/Scanner
+   #64 = Class              #95           // java/lang/System
+   #65 = NameAndType        #96:#97       // in:Ljava/io/InputStream;
+   #66 = NameAndType        #29:#98       // "<init>":(Ljava/io/InputStream;)V
+   #67 = NameAndType        #99:#100      // nextLine:()Ljava/lang/String;
+   #68 = Class              #101          // java/lang/Integer
+   #69 = NameAndType        #102:#103     // valueOf:(Ljava/lang/String;)Ljava/lang/Integer;
+   #70 = NameAndType        #104:#105     // intValue:()I
+   #71 = NameAndType        #49:#50       // cacul:(Ljava/lang/String;)V
+   #72 = Utf8               A
+   #73 = Utf8               0
+   #74 = Class              #106          // java/lang/String
+   #75 = NameAndType        #107:#108     // replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #76 = Utf8               S
+   #77 = Utf8               1
+   #78 = Utf8               D
+   #79 = Utf8               2
+   #80 = Utf8               F
+   #81 = Utf8               3
+   #82 = Utf8               G
+   #83 = Utf8               4
+   #84 = Utf8               H
+   #85 = Utf8               5
+   #86 = NameAndType        #109:#110     // toCharArray:()[C
+   #87 = NameAndType        #111:#112     // out:Ljava/io/PrintStream;
+   #88 = Class              #113          // java/lang/Math
+   #89 = NameAndType        #114:#115     // abs:(I)I
+   #90 = NameAndType        #116:#117     // min:(II)I
+   #91 = Class              #118          // java/io/PrintStream
+   #92 = NameAndType        #119:#120     // println:(I)V
+   #93 = Utf8               com/zxj/demo/bs/WYHY
+   #94 = Utf8               java/lang/Object
+   #95 = Utf8               java/lang/System
+   #96 = Utf8               in
+   #97 = Utf8               Ljava/io/InputStream;
+   #98 = Utf8               (Ljava/io/InputStream;)V
+   #99 = Utf8               nextLine
+  #100 = Utf8               ()Ljava/lang/String;
+  #101 = Utf8               java/lang/Integer
+  #102 = Utf8               valueOf
+  #103 = Utf8               (Ljava/lang/String;)Ljava/lang/Integer;
+  #104 = Utf8               intValue
+  #105 = Utf8               ()I
+  #106 = Utf8               java/lang/String
+  #107 = Utf8               replaceAll
+  #108 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  #109 = Utf8               toCharArray
+  #110 = Utf8               ()[C
+  #111 = Utf8               out
+  #112 = Utf8               Ljava/io/PrintStream;
+  #113 = Utf8               java/lang/Math
+  #114 = Utf8               abs
+  #115 = Utf8               (I)I
+  #116 = Utf8               min
+  #117 = Utf8               (II)I
+  #118 = Utf8               java/io/PrintStream
+  #119 = Utf8               println
+  #120 = Utf8               (I)V
+{
+  public com.zxj.demo.bs.WYHY();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 8: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/zxj/demo/bs/WYHY;
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=5, args_size=1
+         0: new           #2                  // class java/util/Scanner
+         3: dup
+         4: getstatic     #3                  // Field java/lang/System.in:Ljava/io/InputStream;
+         7: invokespecial #4                  // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+        10: astore_1
+        11: aload_1
+        12: invokevirtual #5                  // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+        15: invokestatic  #6                  // Method java/lang/Integer.valueOf:(Ljava/lang/String;)Ljava/lang/Integer;
+        18: invokevirtual #7                  // Method java/lang/Integer.intValue:()I
+        21: istore_2
+        22: iconst_0
+        23: istore_3
+        24: iload_3
+        25: iload_2
+        26: if_icmpge     46
+        29: aload_1
+        30: invokevirtual #5                  // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+        33: astore        4
+        35: aload         4
+        37: invokestatic  #8                  // Method cacul:(Ljava/lang/String;)V
+        40: iinc          3, 1
+        43: goto          24
+        46: return
+      LineNumberTable:
+        line 10: 0
+        line 11: 11
+        line 13: 22
+        line 14: 29
+        line 15: 35
+        line 13: 40
+        line 17: 46
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           35       5     4     t   Ljava/lang/String;
+           24      22     3     i   I
+            0      47     0  args   [Ljava/lang/String;
+           11      36     1  scan   Ljava/util/Scanner;
+           22      25     2     T   I
+      StackMapTable: number_of_entries = 2
+        frame_type = 254 /* append */
+          offset_delta = 24
+          locals = [ class java/util/Scanner, int, int ]
+        frame_type = 250 /* chop */
+          offset_delta = 21
+
+  public static void cacul(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=9, args_size=1
+         0: iconst_0
+         1: istore_1
+         2: iconst_0
+         3: istore_2
+         4: aload_0
+         5: ldc           #9                  // String A
+         7: ldc           #10                 // String 0
+         9: invokevirtual #11                 // Method java/lang/String.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        12: astore_0
+        13: aload_0
+        14: ldc           #12                 // String S
+        16: ldc           #13                 // String 1
+        18: invokevirtual #11                 // Method java/lang/String.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        21: astore_0
+        22: aload_0
+        23: ldc           #14                 // String D
+        25: ldc           #15                 // String 2
+        27: invokevirtual #11                 // Method java/lang/String.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        30: astore_0
+        31: aload_0
+        32: ldc           #16                 // String F
+        34: ldc           #17                 // String 3
+        36: invokevirtual #11                 // Method java/lang/String.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        39: astore_0
+        40: aload_0
+        41: ldc           #18                 // String G
+        43: ldc           #19                 // String 4
+        45: invokevirtual #11                 // Method java/lang/String.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        48: astore_0
+        49: aload_0
+        50: ldc           #20                 // String H
+        52: ldc           #21                 // String 5
+        54: invokevirtual #11                 // Method java/lang/String.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        57: astore_0
+        58: aload_0
+        59: invokevirtual #22                 // Method java/lang/String.toCharArray:()[C
+        62: astore_3
+        63: aload_3
+        64: arraylength
+        65: iconst_1
+        66: if_icmpgt     104
+        69: aload_3
+        70: iconst_0
+        71: caload
+        72: bipush        48
+        74: isub
+        75: istore        4
+        77: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        80: iload         4
+        82: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+        85: iload         4
+        87: iconst_5
+        88: isub
+        89: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+        92: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+        95: invokestatic  #25                 // Method java/lang/Math.min:(II)I
+        98: invokevirtual #26                 // Method java/io/PrintStream.println:(I)V
+       101: goto          250
+       104: aload_3
+       105: iconst_0
+       106: caload
+       107: bipush        48
+       109: isub
+       110: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+       113: aload_3
+       114: iconst_0
+       115: caload
+       116: bipush        48
+       118: isub
+       119: iload_2
+       120: isub
+       121: iconst_5
+       122: isub
+       123: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+       126: aload_3
+       127: iconst_0
+       128: caload
+       129: bipush        48
+       131: isub
+       132: iload_2
+       133: isub
+       134: iconst_5
+       135: iadd
+       136: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+       139: invokestatic  #25                 // Method java/lang/Math.min:(II)I
+       142: invokestatic  #25                 // Method java/lang/Math.min:(II)I
+       145: istore_1
+       146: aload_3
+       147: iconst_0
+       148: caload
+       149: bipush        48
+       151: isub
+       152: istore_2
+       153: iconst_1
+       154: istore        4
+       156: iload         4
+       158: aload_3
+       159: arraylength
+       160: if_icmpge     243
+       163: aload_3
+       164: iload         4
+       166: caload
+       167: bipush        48
+       169: isub
+       170: iload_2
+       171: isub
+       172: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+       175: istore        5
+       177: aload_3
+       178: iload         4
+       180: caload
+       181: bipush        48
+       183: isub
+       184: iload_2
+       185: isub
+       186: bipush        6
+       188: isub
+       189: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+       192: istore        6
+       194: aload_3
+       195: iload         4
+       197: caload
+       198: bipush        48
+       200: isub
+       201: iload_2
+       202: isub
+       203: iconst_5
+       204: iadd
+       205: invokestatic  #24                 // Method java/lang/Math.abs:(I)I
+       208: istore        7
+       210: iload         6
+       212: iload         7
+       214: invokestatic  #25                 // Method java/lang/Math.min:(II)I
+       217: istore        8
+       219: iload_1
+       220: iload         5
+       222: iload         8
+       224: invokestatic  #25                 // Method java/lang/Math.min:(II)I
+       227: iadd
+       228: istore_1
+       229: aload_3
+       230: iload         4
+       232: caload
+       233: bipush        48
+       235: isub
+       236: istore_2
+       237: iinc          4, 1
+       240: goto          156
+       243: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       246: iload_1
+       247: invokevirtual #26                 // Method java/io/PrintStream.println:(I)V
+       250: return
+      LineNumberTable:
+        line 19: 0
+        line 20: 4
+        line 21: 13
+        line 22: 22
+        line 23: 31
+        line 24: 40
+        line 25: 49
+        line 26: 58
+        line 27: 63
+        line 28: 69
+        line 29: 77
+        line 30: 101
+        line 31: 104
+        line 32: 146
+        line 33: 153
+        line 34: 163
+        line 35: 177
+        line 36: 194
+        line 37: 210
+        line 38: 219
+        line 39: 229
+        line 33: 237
+        line 41: 243
+        line 44: 250
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           77      24     4 temp1   I
+          177      60     5 temp1   I
+          194      43     6 temp21   I
+          210      27     7 temp22   I
+          219      18     8 temp2   I
+          156      87     4     i   I
+            0     251     0     t   Ljava/lang/String;
+            2     249     1   sum   I
+            4     247     2 index   I
+           63     188     3 array   [C
+      StackMapTable: number_of_entries = 4
+        frame_type = 254 /* append */
+          offset_delta = 104
+          locals = [ int, int, class "[C" ]
+        frame_type = 252 /* append */
+          offset_delta = 51
+          locals = [ int ]
+        frame_type = 250 /* chop */
+          offset_delta = 86
+        frame_type = 6 /* same */
+}
+SourceFile: "WYHY.java"
